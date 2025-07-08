@@ -1,11 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 // Pangrams
 func isPangram(phrase string) string {
 	alphabet := [26]bool{}
-	for _, char := range phrase {
+
+	phraseLower := strings.ToLower(phrase)
+
+	for _, char := range phraseLower {
 		if char >= 'a' && char <= 'z' {
 			alphabet[char-'a'] = true
 		}
