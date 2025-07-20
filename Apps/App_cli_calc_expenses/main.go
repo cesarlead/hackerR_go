@@ -1,5 +1,7 @@
 package main
 
+// Apps/App_cli_calc_expenses/main.go
+
 import (
 	"fmt"
 	"practica/Apps/App_cli_calc_expenses/commands"

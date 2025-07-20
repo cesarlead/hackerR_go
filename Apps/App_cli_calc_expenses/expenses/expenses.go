@@ -1,5 +1,7 @@
 package expenses
 
+// expenses/expenses.go
+
 import (
 	"fmt"
 	"practica/Apps/App_cli_calc_expenses/commands"

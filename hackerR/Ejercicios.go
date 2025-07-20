@@ -5,7 +5,6 @@ import (
 	"strconv"
 )
 
-// Plus Minus
 func PlusMinus(arr []int) string {
 	fmt.Println("Ejercicio 1: Plus Minus")
 
@@ -34,7 +33,6 @@ func PlusMinus(arr []int) string {
 
 }
 
-// Mini-Max Sum
 func MiniMaxSum(arr []int) string {
 
 	fmt.Println("Ejercicio 2: Mini-Max Sum")
@@ -62,7 +60,6 @@ func MiniMaxSum(arr []int) string {
 
 }
 
-// Time Conversion
 func TimeConversion(time string) string {
 
 	fmt.Println("Ejercicio 3: Time Conversion")
@@ -85,7 +82,6 @@ func TimeConversion(time string) string {
 	return fmt.Sprintf("%02d:%s:%s", h, m, s)
 }
 
-// Sparse Arrays
 func SparseArrays(arr, queries []string) []int {
 
 	fmt.Println("Ejercicio 4: Sparse Arrays")
@@ -107,7 +103,6 @@ func SparseArrays(arr, queries []string) []int {
 
 }
 
-// Lonely Integer
 func LonelyInteger(arr []int) int {
 
 	fmt.Println("Ejercicio 5: Lonely Integer")

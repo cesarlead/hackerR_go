@@ -1,5 +1,7 @@
 package commands
 
+// /commands/commands.go
+
 import (
 	"bufio"
 	"fmt"
